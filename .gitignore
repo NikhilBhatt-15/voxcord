@@ -1,4 +1,6 @@
 .env
+voices.json
 .venv/
 __pycache__/
 *.pyc
+*.wav
