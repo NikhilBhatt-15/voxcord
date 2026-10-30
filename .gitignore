@@ -4,3 +4,5 @@ voices.json
 __pycache__/
 *.pyc
 *.wav
+.voxcord.pid
+voxcord.log*

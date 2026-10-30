@@ -85,6 +85,20 @@ Copy `.env.example` to `.env` and fill in at least `DISCORD_TOKEN`. Add `SARVAM_
 
 ### 4. Run
 
+On Windows, double-click **`voxcord.bat`** to turn the bot on, and double-click it again to turn it off. A small popup confirms each time. It runs hidden (no console window) at below-normal priority and uses about 50 MB of RAM and almost no CPU while idle.
+
+```
+voxcord.bat            # toggle on/off
+voxcord.bat start      # start only
+voxcord.bat stop       # stop only
+voxcord.bat status     # show whether it's running and its memory use
+voxcord.bat log        # print the last lines of the log (in a terminal)
+```
+
+Logs go to `voxcord.log.err`. Run `voxcord.bat shortcut` once to create a **voxcord** shortcut on your Desktop and in the Start menu. To pin it, search "voxcord" in Start, then right-click → **Pin to taskbar** (or **Pin to Start**).
+
+To run it in a visible terminal instead (any OS):
+
 ```bash
 python bot.py
 ```
